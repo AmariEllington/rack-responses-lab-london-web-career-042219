@@ -5,7 +5,7 @@ class Application
 
          day_time = Time.now.hour
 
-         if day_time >= 12 
+         if day_time >= 12
             resp.write "Good Afternoon!"
         else
             resp.write "Good Morning!"
@@ -13,5 +13,5 @@ class Application
 
          resp.finish
     end
-end 
+end
  
