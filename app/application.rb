@@ -5,7 +5,7 @@ def call(env)
     day_time = Time.new.hour
 
     if day_time > 12
-        resp.write "Morning!"
+        resp.write "Good Morning!"
     else
          resp.write "Good Afternoon!"
     end
